@@ -1,9 +1,11 @@
 import './App.css';
+import Header from './components/layout/Header/Header';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Ballot Box</h1>
+     <Header/>
     </div>
   );
 }
