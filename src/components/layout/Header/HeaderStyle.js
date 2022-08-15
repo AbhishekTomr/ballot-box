@@ -7,16 +7,16 @@ const useStyles = makeStyles({
         flexFlow: 'row nowrap',
         width: '100%',
         alignItems: 'center',
-        padding:'0px',
+        padding:'0px !important',
     },
     icons: {
         margin : '0 10px',
-        fontSize: '1.6rem'
+        fontSize: '2.1rem !important'
     },
     headerContainer: {
-        display: 'flex',
+        display: 'flex !important',
         width: '50%',
-        padding:'0 5px',
+        padding:'0 5px !important',
         // border:'3px solid red',
     },
     headerRight:{
