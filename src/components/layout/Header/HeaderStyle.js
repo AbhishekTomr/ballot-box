@@ -11,7 +11,7 @@ const useStyles = makeStyles({
     },
     icons: {
         margin : '0 10px',
-        fontSize: '2.1rem !important'
+        fontSize: '1.7rem !important'
     },
     headerContainer: {
         display: 'flex !important',
