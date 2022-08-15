@@ -1,6 +1,7 @@
-import { AppBar, Toolbar, Typography, Container, Button } from "@mui/material";
+import { AppBar, Toolbar, Typography, Container, Button, IconButton } from "@mui/material";
 import HowToVoteIcon from '@mui/icons-material/HowToVote';
 import useStyle from "./HeaderStyle";
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const Header = () =>{
     const classes = useStyle();
@@ -15,7 +16,9 @@ const Header = () =>{
             <Container className={`${classes.headerRight} ${classes.headerContainer}`}>
                 <Button variant="densed">About Us</Button>
                 <Button variant="densed">Contact Us</Button>
-                <Button variant="densed">Login</Button>
+                <IconButton>
+                    <AccountCircleIcon className={classes.icons}/>
+                </IconButton>
             </Container>
         </Toolbar> 
         </AppBar>
