@@ -1,16 +1,16 @@
 import { makeStyles } from "@mui/styles";
+const img = require('../../../images/LandingPage.png');
 
 const useStyles = makeStyles({
     
     imgWrap: {
-        padding: '0 !important'
-    },
-    card:{
-        height: '100%',
-    },
-    mediaCard: {
-        height: '100%',
-        width: '100%',
+        // border: '3px solid red',
+        height: '60vh',
+        width: '40%',
+        backgroundImage: `url(${img})`,
+        backgroundSize: 'contain',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
     },
 });
 

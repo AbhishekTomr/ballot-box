@@ -1,21 +1,30 @@
 .headerWrap{
     height: 3vh;
 }
+.searchSection{
+    height: 7vh;
+}
 .mainContent{
-    height: 97vh;
+    height: 90vh;
     display: flex;
 }
 .mainTextWrap{
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 }
 .mainImageWrap{
-    width: 50%;
+    width: 40%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.App{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
 }
