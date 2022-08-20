@@ -7,7 +7,7 @@ const MainImage = ()=>{
     return (
         <Container className={classes.imgWrap}>
         </Container>
-    );
+    )
 }
 
 export default MainImage;

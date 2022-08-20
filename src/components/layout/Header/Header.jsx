@@ -3,7 +3,7 @@ import HowToVoteIcon from '@mui/icons-material/HowToVote';
 import useStyle from "./HeaderStyle";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
-const Header = () =>{
+const Header = (props) =>{
     const classes = useStyle();
 
     return (
@@ -16,13 +16,13 @@ const Header = () =>{
             <Container className={`${classes.headerRight} ${classes.headerContainer}`}>
                 <Button variant="densed">About Us</Button>
                 <Button variant="densed">Contact Us</Button>
-                <IconButton>
+                <IconButton onClick={()=>{props.showLogin(oldState=>{return (!oldState)})}}>
                     <AccountCircleIcon className={classes.icons}/>
                 </IconButton>
             </Container>
         </Toolbar> 
         </AppBar>
-    );
+    )
 }
 
 export default Header;
