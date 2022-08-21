@@ -32,6 +32,7 @@ const useStyles = makeStyles({
     },
     loginIcon:{
         textAlign: 'center',
+        marginBottom: '1rem'
     },    
     icons:{
         fontSize: '3rem',

@@ -47,7 +47,7 @@ let SignUp = (props)=>{
                     />
             </FormControl>
             <Button variant="contained" color="primary" className={classes.btn}>Sign Up</Button>
-            <Typography className={classes.optSignUp}>or <Button className={classes.signUp} color="primary" onClick={props.showLogin}>Sign Up</Button></Typography>
+            <Typography className={classes.optSignUp}>or <Button className={classes.signUp} color="primary" onClick={props.showLogin}>Sign In</Button></Typography>
         </Fragment>
     );
 }
