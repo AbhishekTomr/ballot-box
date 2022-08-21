@@ -3,7 +3,7 @@ import {Card} from '@mui/material';
 import LoginContent from './LoginContent/LoginContent'
 import SignUp from '../SignUp/SignUp'
 import CloseIcon from '@mui/icons-material/Close';
-import { IconButton,CardMedia,Typography,Button } from '@mui/material';
+import { IconButton,CardMedia,Typography } from '@mui/material';
 import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
 
 
