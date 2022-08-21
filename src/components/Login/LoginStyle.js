@@ -39,6 +39,7 @@ const useStyles = makeStyles({
     },
     signInHeading:{
         fontWeight: 'bold',
+        textTransform: 'uppercase'
     },
     btn:{
         width: '90%'
