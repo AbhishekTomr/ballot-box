@@ -2,20 +2,8 @@ import { makeStyles } from "@mui/styles";
 
 
 const useStyles = makeStyles({
-    loginScreen:{
-        position: 'absolute',
-        height: '100vh',
-        width: '100vw !important',
-        backgroundColor: 'rgba(0,0,0,.5)',        
-        top: '0px',
-        right: '0px',
-        zIndex: '1',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
     loginCard:{
-        height: 'auto',
+        height: '50vh',
         width: '30vw',
         display: 'flex',
         flexFlow: 'column nowrap',
@@ -24,7 +12,6 @@ const useStyles = makeStyles({
         alignItems:'center',
     },
     inputLabel:{
-        // border:'1px solid black',
         backgroundColor: 'white',
     },
     closeIt:{
@@ -38,6 +25,11 @@ const useStyles = makeStyles({
     },
     signInHeading:{
         fontWeight: 'bold',
+        marginBottom: '.3rem !important'
+    },
+    loginField:{
+        width: '90%',
+        marginBottom: '.3rem !important'
     },
     btn:{
         width: '90%'

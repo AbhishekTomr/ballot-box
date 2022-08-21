@@ -16,7 +16,7 @@ const Header = (props) =>{
             <Container className={`${classes.headerRight} ${classes.headerContainer}`}>
                 <Button variant="densed">About Us</Button>
                 <Button variant="densed">Contact Us</Button>
-                <IconButton onClick={()=>{props.showLogin(oldState=>{return (!oldState)})}}>
+                <IconButton onClick={()=>{props.showLogin(oldState=>({...oldState,Login:true}))}}>
                     <AccountCircleIcon className={classes.icons}/>
                 </IconButton>
             </Container>

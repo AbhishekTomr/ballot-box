@@ -8,8 +8,13 @@ import Login from './components/Login/Login';
 import  ReactDOM  from 'react-dom';
 
 
+
 function App() {
-  const [loginState,showLogin] = useState(false);
+  const [loginState,showLogin] = useState({
+    Login: false,
+    showSignUp: false,
+  });
+
   return (
     <div className="App">
      <Header className='headerWrap' showLogin={showLogin}/>
@@ -17,7 +22,7 @@ function App() {
      <main className='mainContent'>
       <div className='mainTextWrap'><MaintText/></div>
      <div className='mainImageWrap'><MainImage/></div>
-     {loginState && ReactDOM.createPortal(<Login closeLogin={showLogin}/>, document.getElementById('login-overlayer'))}
+     {loginState.Login && ReactDOM.createPortal(<Login loginState={loginState} closeLogin={showLogin}/>, document.getElementById('login-overlayer'))}
      </main>
     </div>
   );
