@@ -29,7 +29,7 @@ const useStyles = makeStyles({
     },
     loginField:{
         width: '90%',
-        marginBottom: '.3rem !important'
+        marginBottom: '.7rem !important'
     },
     btn:{
         width: '90%'
@@ -43,6 +43,16 @@ const useStyles = makeStyles({
         fontSize: '1rem',
         fontWeight: 'bold',
         textTransform: 'capitalize',
+    },
+    error:{
+        color: 'red',
+        margin: '.3rem 0',
+        textAlign:'left',
+        width: '90%',
+        paddingLeft: '.5rem' 
+    },
+    errorField:{
+        border: '1px solid red'
     }
 });
 
